@@ -1,0 +1,100 @@
+.featureContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-elevated);
+    padding-bottom: 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 22px 28px;
+    gap: 12px;
+
+}
+
+.header h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--text-subtle);
+    letter-spacing: 0.15em;
+}
+
+.header h2 {
+    font-size: 56px;
+    color: var(--text-muted)
+}
+
+.header h1 {
+    font-size: 58px;
+    color: var(--text-white)
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 22px 28px;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.card {
+    padding: 20px 28px;
+    width: 50%;
+    border-radius: 12px;
+    border: 3px solid var(--primary-glass);
+    background-color: var(--primary-glass);
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    background: var(--bg-elevated);
+    transform: translateY(-4px);
+}
+
+.card h3 {
+    font-size: 22px;
+    text-align: left;
+    color: var(--text-white);
+}
+
+.card p {
+    margin-top: 12px;
+    font-size: 18px;
+    text-align: left;
+    color: var(--text-muted)
+}
+
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 38px 28px;
+    gap: 12px;
+    background-color: var(--bg-light);
+}
+
+.mission h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #9994B8;
+    letter-spacing: 0.15em;
+}
+
+.mission h2 {
+    color: #12101F;
+    font-size: 42px;
+}
+
+.quote {
+    border-left: 2px solid #12101F;
+}
+
+.mission p {
+    margin-left: 20px;
+    max-width: 850px;
+    color: #4A4568;
+    font-size: 20px;
+}

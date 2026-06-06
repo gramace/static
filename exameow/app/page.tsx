@@ -1,0 +1,20 @@
+import React from 'react'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import SignUp from './components/SignUp'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
+function page() {
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+      <Features />
+      <SignUp />
+      <Footer />
+    </main>
+  )
+}
+
+export default page
