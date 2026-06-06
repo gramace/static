@@ -36,8 +36,8 @@ const Hero = () => {
                     </p>
 
                     <div className={styles['hero-buttons']}>
-                        <Link href="/waitlist" className={styles['btn']}>Join Waitlist</Link>
-                        <Link href="/features" className={styles['btn']}>Explore Features</Link>
+                        <a href="#waitlist" className={styles['btn']}>Join Waitlist</a>
+                        <a href="#features" className={styles['btn']}>Explore Features</a>
                     </div>
                 </div>
                 <div className={styles.cardSection}>
