@@ -158,3 +158,72 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+@media (max-width: 768px) {
+
+    /* Stack the two-column layout */
+    .contentContainer {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 12px 16px;
+    }
+
+    /* Scale down headings */
+    .hero h1 {
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* Stack the tag and goal pill vertically */
+    .heroTopRow {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .goalPill {
+        background: transparent;
+        padding: 10px 10px;
+        margin-right: 0;
+        margin-left: 8px;
+    }
+
+    /* Tighten button gap */
+    .hero-buttons {
+        gap: 8px;
+        margin-top: 24px;
+    }
+
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .stats div {
+        border-left: 4px solid var(--primary);
+        padding: 0 12px;
+    }
+
+    .stats h3 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .stats p {
+        margin-top: 4px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+}

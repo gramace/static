@@ -32,3 +32,19 @@
 .nav-links a:hover {
     color: white;
 }
+
+@media (max-width: 640px) {
+    .nav-inner {
+        margin: 0 12px;
+        padding: 14px 0;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 16px;
+        font-size: 13px;
+    }
+}
