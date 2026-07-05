@@ -14,7 +14,6 @@ function page() {
       <Features />
       <SignUp />
       <Footer />
-      <Link href="/waitlist">Join Waitlist Preview</Link>
     </main>
   )
 }

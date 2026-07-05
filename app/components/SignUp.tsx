@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "./styles/signup.module.css";
 import { toast } from "sonner";
+import Link from "next/link";
 
 const SignUp: React.FC = () => {
     const [email, setEmail] = useState("");
@@ -20,7 +21,7 @@ const SignUp: React.FC = () => {
 
             if (res.ok) {
                 toast("You’ve been added to the waitlist!");
-                setEmail(""); // clear input
+                setEmail("");
             } else {
                 toast("Something went wrong, please try again.");
             }
@@ -54,6 +55,19 @@ const SignUp: React.FC = () => {
                     {isSubmitting ? "Sending..." : "Join Waitlist"}
                 </button>
             </form>
+
+            <div style={{
+                marginTop: "auto",
+                marginBottom: '0px',
+                display: "flex", gap: "30px",
+                fontSize: '12px', textAlign: 'center', letterSpacing: '1px',
+                fontFamily: 'inherit', textTransform: 'uppercase',
+                color: 'var(--text-muted)', justifyContent: "center",
+            }}>
+                <Link href="/account-deletion">Account deletion</Link>
+                <Link href="/privacy-policy">Privacy policy</Link>
+            </div >
+
         </section>
     );
 };

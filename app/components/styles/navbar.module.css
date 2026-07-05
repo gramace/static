@@ -15,11 +15,14 @@
     padding: 20px 0;
 }
 
-.logo {
-    color: white;
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: -1px;
+.imageContainer {
+    background: rgba(234, 231, 255, 0.863);
+    width: 15%;
+    padding: 6px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-links {
