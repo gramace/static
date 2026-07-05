@@ -4,6 +4,7 @@ import Features from './components/Features'
 import SignUp from './components/SignUp'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Link from 'next/link'
 
 function page() {
   return (
@@ -13,6 +14,7 @@ function page() {
       <Features />
       <SignUp />
       <Footer />
+      <Link href="/waitlist">Join Waitlist Preview</Link>
     </main>
   )
 }

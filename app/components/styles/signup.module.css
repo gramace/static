@@ -77,13 +77,10 @@
 }
 
 @media (max-width: 640px) {
-
-    /* Scale down heading */
     .header h2 {
         font-size: 28px;
     }
 
-    /* Stack input and button vertically */
     .form {
         flex-direction: column;
         align-items: center;
