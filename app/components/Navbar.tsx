@@ -15,6 +15,7 @@ const Navbar = () => {
                 <div className={styles['nav-links']}>
                     <a href='#'>Home</a>
                     <a href="#features">Features</a>
+                    <a href="#values">Values</a>
                     <a href="#waitlist">Waitlist</a>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Values from './components/Values'
 import SignUp from './components/SignUp'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -12,6 +13,7 @@ function page() {
       <Navbar />
       <Hero />
       <Features />
+      <Values />
       <SignUp />
       <Footer />
     </main>
