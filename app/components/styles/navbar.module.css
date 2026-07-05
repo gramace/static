@@ -2,8 +2,8 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: var(--bg-deep);
-    backdrop-filter: blur(10px);
+    background: rgba(223, 220, 255, 0.87);
+    /* backdrop-filter: blur(10px); */
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -16,7 +16,7 @@
 }
 
 .imageContainer {
-    background: rgba(234, 231, 255, 0.863);
+    /* background: rgba(234, 231, 255, 0.863); */
     width: 15%;
     padding: 6px;
     border-radius: 8px;
@@ -28,7 +28,7 @@
 .nav-links {
     display: flex;
     gap: 32px;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--bg-elevated);
     font-size: 16px;
 }
 

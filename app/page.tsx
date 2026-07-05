@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 function page() {
   return (
-    <main>
+    <main style={{ backgroundColor: 'var(--bg-void)' }}>
       <Navbar />
       <Hero />
       <Features />
