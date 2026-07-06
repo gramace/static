@@ -13,7 +13,7 @@ const SignUp: React.FC = () => {
         e.preventDefault();
         setIsSubmitting(true);
         try {
-            const res = await fetch("http://localhost:3000/waitlist", {
+            const res = await fetch("https://node.exameow.com/waitlist", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email }),
