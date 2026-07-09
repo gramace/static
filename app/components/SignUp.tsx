@@ -19,6 +19,8 @@ const SignUp: React.FC = () => {
                 body: JSON.stringify({ email }),
             });
 
+            console.log("Response status:", res.json);
+
             if (res.ok) {
                 toast("You’ve been added to the waitlist!");
                 setEmail("");

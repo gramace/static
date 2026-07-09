@@ -1,0 +1,102 @@
+function waitlistConfirmationEmail() {
+return `
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@400;600&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body style="margin:0; padding:0; background-color:#fcfcfc; font-family:'Poppins','Nunito','Mulish',sans-serif;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+        style="background-color:#fcfcfc; padding:40px 0;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="480" cellpadding="0" cellspacing="0"
+                    style="background-color:#fffbf1; border:1px solid #e8e5df; border-radius:12px; overflow:hidden;">
+
+                    <tr>
+                        <td style="height:3px; background:linear-gradient(90deg, #41205A, #F2C063);"></td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:48px 40px 32px 40px;">
+
+                            <table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:24px;">
+                                <tr>
+                                    <td>
+                                        <img src="https://www.exameow.com/full-logo.png" alt="Exameow" width="144"
+                                            style="display:block;" />
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p
+                                style="margin:0 0 24px 0; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#7c7c8a; font-weight:600;">
+                                Early Access
+                            </p>
+
+                            <h1
+                                style="margin:0 0 24px 0; font-size:26px; line-height:1.3; color:#1a1a1a; font-weight:600;">
+                                You're on the list.
+                            </h1>
+
+                            <p style="margin:0 0 20px 0; font-size:15px; line-height:1.7; color:#6b5c73;">
+                                Exameow is taking shape, quietly behind the curtains. Because good things take time.
+                            </p>
+
+                            <p style="margin:0 0 20px 0; font-size:15px; line-height:1.7; color:#6b5c73;">
+                                You're going to be one of the first to know when we open our doors.
+                                In the meantime, you can follow us on <span style="font-weight:bold;">Instagram</span>
+                                and <span style="font-weight:bold;">LinkedIn</span> for updates,
+                                or just sit tight and wait for our email.
+                            </p>
+
+                            <p
+                                style="margin:0 0 20px 0; font-size:15px; line-height:1.7; color:#6b5c73; font-style:italic;">
+                                Excited for being one of our firsts?
+                            </p>
+
+                            <hr style="border:none; border-top:1px solid #e8dcc0; margin:12px 0 24px 0;" />
+
+                            <p
+                                style="margin:0; font-size:13px; letter-spacing:1px; color:#F2C063; font-weight:600; text-transform:uppercase; text-align:center;">
+                                Watch this space
+                            </p>
+                            <br />
+                            <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                                <tr>
+                                    <td style="padding:0 8px;">
+                                        <a href="https://www.instagram.com/exameow"
+                                            style="color:#41205A; font-size:12px; font-weight:600; text-transform:uppercase; text-decoration:none;">Instagram</a>
+                                    </td>
+                                    <td style="padding:0 8px;">
+                                        <a href="https://www.linkedin.com/company/exameow/"
+                                            style="color:#41205A; font-size:12px; font-weight:600; text-transform:uppercase; text-decoration:none;">LinkedIn</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:24px 40px; background-color:#41205A; border-top:1px solid #1c1c1c;">
+                            <p style="margin:0; font-size:12px; color:#fcfcfc; text-align:center;">
+                                — The Exameow Team
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+`;
+}
+
+module.exports = { waitlistConfirmationEmail };

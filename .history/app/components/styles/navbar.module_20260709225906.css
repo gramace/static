@@ -8,14 +8,15 @@
 }
 
 .nav-inner {
-    margin: 0 20px;
+    margin: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 20px 0;
 }
 
 .imageContainer {
+    /* background: rgba(234, 231, 255, 0.863); */
     width: 15%;
     padding: 6px;
     border-radius: 8px;
